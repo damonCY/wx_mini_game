@@ -1,0 +1,22 @@
+﻿说明
+
+一、游戏地址
+
+    1、安装LayaTest.apk
+    2、打开apk   adb shell am start layabox://url   地址的方式即可，具体地址如下：
+
+	adb shell am start layabox://xx.xx.xx.xx:xx/runtime.json
+	
+    3、或者启动自己的项目，如果启动aquarium项目的时候，LayaRuntimeAdpt.js 这个脚本不用加载了
+	
+二、这个是我们最新版本的，适配了标准的webgl函数，不过由于我们现在是多线程模式，以下几个基本用不到的get函数，尚未支持。
+         checkFramebufferStatus
+         getUniform 
+         getVertexAttrib
+         getVertexAttribOffset
+         getBufferParameter
+         getFramebufferAttachmentParameter
+         getRenderbufferParameter
+         getTexParameter
+         getParameter 实现了部分功能
+         readPixels 只能采用回调方式
