@@ -1,0 +1,11 @@
+﻿说明
+
+一、游戏地址
+
+    1、安装LayaTest.apk
+    2、打开apk   adb shell am start layabox://url   地址的方式即可，具体地址如下：
+
+	adb shell am start layabox://layabox.github.io/layaair-doc/project/gametest/jellyfish/runtime.json
+	adb shell am start layabox://layabox.github.io/layaair-doc/project/gametest/ds/runtime.json
+	
+    3、由于是外网测试服地址，也没有CDN，第一次进入游戏比较慢，请多等待一会
