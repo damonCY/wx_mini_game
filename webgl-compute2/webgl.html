@@ -3,15 +3,19 @@
 <meta name="viewport" content="width=device-width, height=device-height">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-    <title>GUIMark3 HTML5 Bitmap</title>
+    <title>WebGL Compute</title>
     <link rel="stylesheet" href="./guimark3.css" type="text/css">
     <script type="text/javascript" src="./wxhelper.js"></script>
+    <script type="text/javascript" src="./Vector3D.js"></script>
+    <script type="text/javascript" src="./Boid.js"></script>
+    <script type="text/javascript" src="./webgl-utils.js"></script>
+    <script type="text/javascript" src="./webgl-debug.js"></script>
+    <script type="text/javascript" src="./cuon-utils.js"></script>
     <script type="text/javascript" src="./guimark3.js"></script>
-    <script type="text/javascript" src="Stats.js"></script>
-    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="./Stats.js"></script>
 </head>
-<body onload="loadAssetsAndStart()">
-    <canvas id="world"></canvas>
+<body onload="init()">
+    <!-- <canvas id="world"></canvas> -->
     <script>
       var stats = new Stats();
       stats.showPanel( 0 ); // 0: fps, 1: ms, 2: mb, 3+: custom

@@ -1,0 +1,13 @@
+{
+	"scripts":[
+    "LayaRuntimeAdpt.js",
+    "wxhelper.js",
+    "Vector3D.js",
+    "Boid.js",
+    "webgl-utils.js",
+    "webgl-debug.js",
+    "cuon-utils.js",
+    "guimark3.js"
+    ],
+	"screenorientation":"landscape"
+}
